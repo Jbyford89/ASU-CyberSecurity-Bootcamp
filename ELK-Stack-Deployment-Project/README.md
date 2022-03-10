@@ -9,8 +9,8 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the **yaml** and **config** file may be used to install only certain pieces of it, such as Filebeat.
 
-  - [My First Playbook](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/blob/main/Ansible/pentest.yml)
-  - [Hosts](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/blob/main/Ansible/hosts)
+  - [My First Playbook](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/tree/main/ELK-Stack-Deployment-Project/Ansible/Docker/pentest.yml)
+  - [Hosts](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/blob/main/ELK-Stack-Deployment-Project/Ansible/ELK_Stack/hosts)
   - [Ansible Configuration]() 
 
 This document contains the following details:
