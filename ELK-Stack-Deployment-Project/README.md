@@ -7,7 +7,7 @@ The files in this repository were used to configure the network depicted below.
 
 ![TODO: Update the path with the name of your diagram](Images/diagram_filename.png)
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the **yaml** and **config** file may be used to install only certain pieces of it, such as Filebeat.
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the *yaml* and *config* file may be used to install only certain pieces of it, such as Filebeat.
 
   - [My First Playbook](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/blob/main/Ansible/pentest.yml)
   - [Hosts](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/blob/main/Ansible/hosts)
