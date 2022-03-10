@@ -8,7 +8,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
   - [My First Playbook](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/tree/main/ELK-Stack-Deployment-Project/Ansible/Docker/pentest.yml)
   - [Hosts](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/blob/main/ELK-Stack-Deployment-Project/Ansible/ELK_Stack/hosts)
-  - [Ansible Configuration]() 
+  - [Ansible Configuration](ELK-Stack-Deployment-Project/Ansible/ELK_Stack/ansible.cfg) 
 
 This document contains the following details:
 - Description of the Topologu
