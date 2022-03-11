@@ -1,7 +1,6 @@
 ### ASU-CyberSecurity-Bootcamp
 This repository contains projects and activities that have been completed within the CyberSecurity Bootcamp.
 
-https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/tree/main/ELK-Stack-Deployment-Project
 
 | Unit                      | Solutions     |
 |:-------------------------:|:-------------:|
