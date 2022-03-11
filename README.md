@@ -17,5 +17,5 @@ You can use the quick links below to access each one.*
 | Unit 9 Networking Fundamentals II & CTF Review | |
 | Unit 10 Cryptography | |
 | Unit 11 Network Security | |
-| Unit 12 Cloud Security | [Cloud Diagram](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/blob/main/Cloud-Security/Jumbox_ansible_network.drawio.png) |
+| Unit 12 Cloud Security | [Cloud Security](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/tree/main/Cloud-Security) |
 | Unit 13 Elk Stack Project | [Elk Stack](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/tree/main/ELK-Stack-Deployment-Project) |
