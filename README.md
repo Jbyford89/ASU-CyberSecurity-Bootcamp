@@ -3,7 +3,7 @@ This repository contains projects and activities that have been completed within
 
 
 | Unit                      | Solutions     |
-|:-------------------------:|:-------------:|
+|:-------------------------|:-------------:|
 | Unit 1 Security 101 |     |
 | Unit 2 Goverenance, Risk, Compliance |    |
 | Unit 3 Terminal | |
