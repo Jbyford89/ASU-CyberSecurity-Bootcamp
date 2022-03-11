@@ -46,4 +46,4 @@ Use a free account at [draw.io](https://app.diagrams.net/) to diagram the entire
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
 
 ## Week 12 Solution
-[Week 12 Solution File](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/blob/main/Cloud-Security/Jumbox_ansible_network.drawio.png)
+[Cloud Security](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/blob/main/Cloud-Security/Jumbox_ansible_network.drawio.png)
