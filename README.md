@@ -1,8 +1,8 @@
 ASU-CyberSecurity-Bootcamp
 ==========================
-This repository contains projects and activities that have been completed within the CyberSecurity Bootcamp. 
-You can use the quick links below to access each one.
--------------------------------------------------------------------------------------------------------------
+*This repository contains _projects_ and _activities_ that have been completed within the CyberSecurity Bootcamp. 
+You can use the quick links below to access each one.*
+
 
 | Unit                      | Solutions     |
 |:-------------------------|:-------------:|
