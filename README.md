@@ -4,8 +4,8 @@
 You can use the quick links below to access each one. After going to a **quick link**, you will see at the bottom of each page there is a link to the direct solution.*
 
 
-| Unit                      | Solutions     |
-|:-------------------------|:-------------:|
+| Unit                      | Activity File     | Solutions |
+|:-------------------------|:-------------:| :------------: |
 | Unit 1 Security 101 | [101]() |
 | Unit 2 Goverenance, Risk, Compliance | [GRC]() |
 | Unit 3 Terminal | [Linux Terminal]() |
@@ -15,7 +15,7 @@ You can use the quick links below to access each one. After going to a **quick l
 | Unit 7 Windows Administration and Hardening | [Windows Hardening]() |
 | Unit 8 Networking Fundamentals | [Networking Fundamentals]() |
 | Unit 9 Networking Fundamentals II & CTF Review | [CTF Solution]() |
-| Unit 10 Cryptography | [Cryptography](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/tree/main/Cryptography) |
+| Unit 10 Cryptography | [Cryptography](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/tree/main/Cryptography) | 
 | Unit 11 Network Security | [Network Security](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/tree/main/Network-Security) |
-| Unit 12 Cloud Security | [Cloud Security](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/tree/main/Cloud-Security) |
+| Unit 12 Cloud Security | [Cloud Security](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/tree/main/Cloud-Security) | [Diagram](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/blob/main/Cloud-Security/Jumbox_ansible_network.drawio.png) |
 | Unit 13 Elk Stack Project | [Elk Stack](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/tree/main/ELK-Stack-Deployment-Project) |
