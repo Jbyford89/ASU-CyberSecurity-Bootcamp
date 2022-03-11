@@ -44,3 +44,6 @@ Use a free account at [draw.io](https://app.diagrams.net/) to diagram the entire
 
 ---
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+
+## Week 12 Solution
+![Week 12 Solution File]()
