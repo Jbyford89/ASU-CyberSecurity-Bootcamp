@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![Jumpbox/Ansible Diagram](ELK-Stack-Deployment-Project/Images/Diagrams/Jumbox_ansible_network.drawio.png)
+![](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/blob/main/ELK-Stack-Deployment-Project/Images/Diagrams/Jumbox_ansible_network.drawio.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the *yaml* and *config* file may be used to install only certain pieces of it, such as Filebeat.
 
