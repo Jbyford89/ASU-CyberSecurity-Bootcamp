@@ -351,3 +351,6 @@ Please make sure that you are set up on your personal Azure accounts prior to th
 ___
 
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+
+# Week 11 Solution
+[Network Security]()
