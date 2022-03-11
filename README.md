@@ -17,6 +17,6 @@ You can use the quick links below to access each one.
 | Unit 10 Cryptography | |
 | Unit 11 Network Security | |
 | Unit 12 Cloud Security | |
-| Unit 13 Elk Stack Project | ![Elk Stack Deployment](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/tree/main/ELK-Stack-Deployment-Project) |
+| Unit 13 Elk Stack Project | ![Elk Stack](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/tree/main/ELK-Stack-Deployment-Project) |
 |                   |       |
 |             |      |
