@@ -88,11 +88,50 @@ The playbook implements the following tasks:
      become: true
      tasks:
    ```
-- ...
+  - Install Docker.io
+  ```yaml
+  - name: Install docker.io
+    apt:
+      update_cache: yes
+      force_apt_get: yes
+      name: docker.io
+      state: present
+  ```
+  - Install pip3
+  ```yaml
+  - name: Install pip3
+    apt:
+      force_apt_get: yes
+      name: python3-pip
+      state: present
+  ```
+  - Install Docker python module
+  ```yaml
+  - name: Install docker python module
+    pip:
+      name: docker
+      state: present
+  ```
+  - Increase Virtual Memory
+  ```yaml
+  - name: Use more memory
+    sysctl:
+      name: vm.max_map_count
+      value: "262144"
+      state: present
+      reload: yes
+  ```
+  - Published ports 5044, 5601, and 9200 available
+  ```yaml
+  published_ports:
+    - 5601:5601
+    - 9200:9200
+    - 5044:5044
+  ```
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
+![](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/blob/main/ELK-Stack-Deployment-Project/Images/docker_ps_elk)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
