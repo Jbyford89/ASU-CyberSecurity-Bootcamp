@@ -81,7 +81,7 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 
 The playbook implements the following tasks:
 - _In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
-  -Specify a different group of machines
+  - Specify a different group of machines
   ```yaml
    - name: Config elk VM with Docker
      hosts: elk
