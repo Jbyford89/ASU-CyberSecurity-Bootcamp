@@ -243,7 +243,7 @@ _As a **Bonus**, provide the specific commands the user will need to run to down
 | Command                                   | Definition and Purpose                  |
 |-------------------------------------------|-----------------------------------------|
 | `ssh-keygen`                              | create ssh key to access and setup VM   |
-| `sudo cat .ssh/id_rsa.pub`                | view the public ssh key                 |
+| `cat ~/.ssh/id_rsa.pub`                   | view the public ssh key                 |
 | `ssh sysadmin@[Jump-Box IP]`              | log in to the Jump-Box                  |
 | `sudo docker container list -a`           | list docker containers available        |
 | `sudo docker start [container name]`      | start docker container                  |
