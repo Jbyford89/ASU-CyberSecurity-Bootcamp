@@ -30,7 +30,7 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 
 Load balancing ensures that the application will be highly _functional_ and _available_, in addition to restricting _traffic_ to the network.
 - What aspect of security do load balancers protect?
-  - _Load balancers add resiliency by rerouting live traffic from one server to another, if a server falls prey to a DDoS atack or becomes unailable._
+  - _Load balancers add resiliency by rerouting live traffic from one server to another, if a server falls prey to a DDoS atack or becomes unavailable._
 - What is the advantage of a jump box? 
   - _A Jump Box prevents Azure VMs from being exposed by a public IP Address. You can monior and log all within the same system/box. You can restrict who can access and from which IP._
 
@@ -75,8 +75,7 @@ A summary of the access policies in place can be found in the table below.
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
 - _What is the main advantage of automating configuration with Ansible?_
-  - _Ansible lets you quickly deploy multi-tier applications by using a **YAML** playbook._ 
-  - _No custom code needed to automate systems._
+  - _Ansible lets you quickly deploy multi-tier applications by using a **YAML** playbook._
   - _Ansible can figure out how to get your systems to the correct state you would like them to be._
 
 The playbook implements the following tasks:
@@ -214,7 +213,7 @@ _Answer the following questions to fill in the blanks:_
   #-------------------------- Elasticsearch output ------------------------------
   output.elasticsearch:
     # TODO: Change the hosts IP address to the IP address of your ELK server
-    # TODO: Change password from `changem` to the password you created
+    # TODO: Change password from `changeme` to the password you created
     hosts: ["10.1.0.4:9200"]
     username: "elastic"
     password: "changeme"
