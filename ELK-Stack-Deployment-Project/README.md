@@ -232,6 +232,7 @@ _Answer the following questions to fill in the blanks:_
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc.
  - The commands below are used in the installation and configuration of the ELK Stack.
+
 | Command                                   | Definition and Purpose                  |
 |-------------------------------------------|-----------------------------------------|
 | `ssh-keygen`                              | create ssh key to access and setup VM   |
