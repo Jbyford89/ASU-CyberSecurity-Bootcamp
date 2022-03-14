@@ -6,10 +6,9 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the *yaml* and *config* file may be used to install only certain pieces of it, such as Filebeat.
 
-  - [My First Playbook](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/tree/main/ELK-Stack-Deployment-Project/Ansible/Docker/pentest.yml)
+  - [ELK Setup & Install](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/tree/main/ELK-Stack-Deployment-Project/Ansible/Docker/pentest.yml)
   - [Hosts](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/blob/main/ELK-Stack-Deployment-Project/Ansible/ELK_Stack/hosts)
   - [Ansible Configuration](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/blob/e49e0240df25067ee8da9848829000346e14a037/ELK-Stack-Deployment-Project/Ansible/ELK_Stack/ansible.cfg) 
-  - [ELK Setup & Install](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/blob/main/ELK-Stack-Deployment-Project/Ansible/ELK_Stack/elk-packages.yml)
   - [Filebeat Configuration](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/blob/main/ELK-Stack-Deployment-Project/Ansible/Filebeat/filebeat-config.yml)
   - [Filebeat Playbook](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/blob/main/ELK-Stack-Deployment-Project/Ansible/Filebeat/filebeat-playbook.yml)
   - [Metricbeat Configuration](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/blob/main/ELK-Stack-Deployment-Project/Ansible/Metricbeat/metricbeat-config.yml)
