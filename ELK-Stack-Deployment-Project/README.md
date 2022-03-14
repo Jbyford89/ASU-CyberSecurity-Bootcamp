@@ -196,7 +196,8 @@ _Answer the following questions to fill in the blanks:_
   # TODO: Change this to the IP address of your ELK server
   ```
 - Run the playbook `ansible-playbook filebeat-playbook.yml` then go to [Kibana](http://104.42.35.235:5601/app/kibana:5601) > Logs > Add log data > System Logs(deb) > Module status > check and verify that the installation worked by verifying there are incoming logs.
-  - [Filebeat Status](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/blob/main/ELK-Stack-Deployment-Project/Images/filebeat_system_logs_dashboard.png)
+  - [Filebeat Status](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/blob/main/ELK-Stack-Deployment-Project/Images/filebeat_data_status.png)
+  - [Filebeat Logs Daashboard](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/blob/main/ELK-Stack-Deployment-Project/Images/filebeat_system_logs_dashboard.png)
 ### Metricbeat
 - Download Metricbeat playbook using:
   - `curl -L -O https://gist.githubusercontent.com/slape/58541585cc1886d2e26cd8be557ce04c/raw/0ce2c7e744c54513616966affb5e9d96f5e12f73/metricbeat > /etc/ansible/files/metricbeat-config.yml`
