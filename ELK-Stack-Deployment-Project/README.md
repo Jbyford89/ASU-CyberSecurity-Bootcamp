@@ -274,4 +274,4 @@ _As a **Bonus**, provide the specific commands the user will need to run to down
 | `nano filebat-playbook.yml`               | edit filebeat playbook                  |
 | `nano metricbeat-config.yml`              | edit metricbeat config                  |
 | `nano metricbeat-playbook.yml`            | edit metricbeat playbook                |
-| `http://ELK-IP:5601/app/kibana`           | kibana dashboard                        |    
+| `http://ELK-IP:5601/app/kibana`           | kibana dashboard SUCCESS                |    
