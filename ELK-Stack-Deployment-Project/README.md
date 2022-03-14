@@ -112,7 +112,7 @@ The playbook implements the following tasks:
       name: docker
       state: present
   ```
-  - Increaseed Virtual Memory
+  - Increased Virtual Memory
   ```yaml
   - name: Use more memory
     sysctl:
@@ -121,7 +121,7 @@ The playbook implements the following tasks:
       state: present
       reload: yes
   ```
-  - Published ports used
+  - Used the following Published ports
   ```yaml
   published_ports:
     - 5601:5601
@@ -142,12 +142,10 @@ The following screenshot displays the result of running `docker ps` after succes
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
-- _List the IP addresses of the machines you are monitoring_
   - Web-1: 10.0.0.5
   - Web-2: 10.0.0.6
 
 We have installed the following Beats on these machines:
-- _Specify which Beats you successfully installed_
   - Filebeat
     - [Filebeat Status](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/blob/main/ELK-Stack-Deployment-Project/Images/filebeat_data_status.png)
   - Metricbeat
