@@ -171,8 +171,8 @@ SSH into the control node and follow the steps below:
 
 _Answer the following questions to fill in the blanks:_
 ### For Elk VM
-- Copy the [Elk Installation and Configuration](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/blob/main/Ansible/ELK-Stack/elk-packages.yml)
-- Run the playbook using the `ansible-playbook etc/ansible/install-elk.yml`
+- Copy the [Elk Installation and Configuration](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/blob/main/ELK-Stack-Deployment-Project/Ansible/ELK_Stack/elk-packages.yml)
+- Run the playbook using the `ansible-playbook etc/ansible/elk-packages.yml`
 ### Filebeat
 - Download Filebeat playbook using:
   - `curl -L -O https://gist.githubusercontent.com/slape/5cc350109583af6cbe577bbcc0710c93/raw/eca603b72586fbe148c11f9c87bf96a63cb25760/Filebeat > /etc/ansible/filebeat-config.yml`
