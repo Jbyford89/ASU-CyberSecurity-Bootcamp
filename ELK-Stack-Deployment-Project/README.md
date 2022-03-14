@@ -13,7 +13,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
   - [Filebeat Configuration](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/blob/main/ELK-Stack-Deployment-Project/Ansible/Filebeat/filebeat-config.yml)
   - [Filebeat Playbook](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/blob/main/ELK-Stack-Deployment-Project/Ansible/Filebeat/filebeat-playbook.yml)
   - [Metricbeat Configuration](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/blob/main/ELK-Stack-Deployment-Project/Ansible/Metricbeat/metricbeat-config.yml)
-  - [Metricbeat Playbook](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/blob/main/ELK-Stack-Deployment-Project/Ansible/metricbeat/metricbeat-playbook.yml)
+  - [Metricbeat Playbook](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/blob/main/ELK-Stack-Deployment-Project/Ansible/Metricbeat/metricbeat-playbook.yml)
 
 This document contains the following details:
 - Description of the Topology
@@ -61,7 +61,7 @@ Machines within the network can only be accessed by my _workstation_ and _Jump B
 - Which machine did you allow to access your ELK VM?
   - _Jump-Box Provisioner 10.0.0.4 via SSH port 22_
 - What was its IP address?
-  - [My public IP] via TCP 5601
+  - _[My Public IP] via TCP 5601_
 
 A summary of the access policies in place can be found in the table below.
 
@@ -81,14 +81,14 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 
 The playbook implements the following tasks:
 - _In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
-  - Specify a different group of machines
+  - Specify group for elk
   ```yaml
    - name: Config elk VM with Docker
      hosts: elk
      become: true
      tasks:
    ```
-  - Install Docker.io
+  - Installed Docker.io
   ```yaml
   - name: Install docker.io
     apt:
@@ -97,7 +97,7 @@ The playbook implements the following tasks:
       name: docker.io
       state: present
   ```
-  - Install pip3
+  - Installed pip3
   ```yaml
   - name: Install pip3
     apt:
@@ -105,14 +105,14 @@ The playbook implements the following tasks:
       name: python3-pip
       state: present
   ```
-  - Install Docker python module
+  - Installed Docker python module
   ```yaml
   - name: Install docker python module
     pip:
       name: docker
       state: present
   ```
-  - Increase Virtual Memory
+  - Increaseed Virtual Memory
   ```yaml
   - name: Use more memory
     sysctl:
@@ -121,7 +121,7 @@ The playbook implements the following tasks:
       state: present
       reload: yes
   ```
-  - Published ports used and available
+  - Published ports used
   ```yaml
   published_ports:
     - 5601:5601
