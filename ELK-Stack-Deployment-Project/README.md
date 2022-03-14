@@ -233,10 +233,10 @@ _Answer the following questions to fill in the blanks:_
 - _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
   - /etc/ansible/hosts file
   - The IP addresses are specified under groups there is _[webservers]_ and _[elk]_ this is located in the `/etc/ansible/hosts` file. Webservers contains the IPs of the two web machines that will contain filebat and the the elk group contains the ELK stack.
-- _Which URL do you navigate to in order to check that the ELK server is running?
+- Which URL do you navigate to in order to check that the ELK server is running?
   - http://ELKIP:5601/app/kibana
 
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc.
+_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
  - The commands below are used in the installation and configuration of the ELK Stack.
 
 | Command                                   | Definition and Purpose                  |
