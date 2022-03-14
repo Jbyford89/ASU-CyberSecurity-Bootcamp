@@ -228,6 +228,42 @@ _Answer the following questions to fill in the blanks:_
   - /etc/ansible/hosts file
   - The IP addresses are specified under groups there is _[webservers]_ and _[elk]_ this is located in the `/etc/ansible/hosts` file. Webservers contains the IPs of the two web machines that will contain filebat and the the elk group contains the ELK stack.
 - _Which URL do you navigate to in order to check that the ELK server is running?
-  - [](http://ELKIP:5601/app/kibana)
+  - http://ELKIP:5601/app/kibana
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc.
+ - The commands below are used in the installation and configuration of the ELK Stack.
+| Command                                   | Definition and Purpose                  |
+|-------------------------------------------|-----------------------------------------|
+| `ssh-keygen`                              | create ssh key to access and setup VM   |
+| `sudo cat .ssh/id_rsa.pub`                | view the public ssh key                 |
+| `ssh sysadmin@[Jump-Box IP]`              | log in to the Jump-Box                  |
+| `sudo docker container list -a`           | list docker containers available        |
+| `sudo docker start [container name]`      | start docker container                  |
+| `sudo docker ps -a`                       | list all active and inactive containers |
+| `sudo docker attatch [container name]`    | attaching and starting up container     |
+| `cd /etc/ansible`                         | change to /etc/ansible directory        |
+| `ls -la`                                  | list all files includes hidden          |
+| `nano /etc/ansible/hosts`                 | edit hosts file                         |
+| `nano /etc/ansible/ansible.cfg`           | edit ansible.confg file                 |
+| `nano /etc/ansible/pentest.yml`           | edit pentest.yml file (setup)           | 
+| `ansible-playbook [location][filename]`   | execute the specified playbook          |
+| `ssh sysadmin@10.0.0.5` from `ansible`    | log into Web-1 VM from ansible          |
+| `ssh sysadmin@10.0.0.6` from `ansible`    | log into Web-2 VM from ansible          |
+| `ssh sysadmin@ELK-IP` from `ansible`      | log into ELK VM from ansible            |
+| `exit`                                    | terminate current shell                 |
+| `sudo apt update`                         | check for any updates in terminal       |
+| `sudo apt upgrade`                        | install any updates                     |
+| `sudo apt install docker.io`              | install docker.io                       |
+| `sudo service docker start`               | start docker                            |
+| `sudo systemctl status docker`            | check status of docker                  |
+| `sudo systemctl start docker`             | start docker                            |
+| `sudo docker pull cyberxsecurity/ansible` | pull docker container                   |
+| `sudo docker run -ti [contianer name]`    | run and create docker container         |
+| `ansible -m ping all`                     | check connection of ansible containers  |
+| `curl -L -O [path of file]`               | download file via curl                  |
+| `dpkg -i [file name]`                     | install file and metricbeat             |
+| `nano filebeat-config.yml`                | edit filebeat config                    |
+| `nano filebat-playbook.yml`               | edit filebeat playbook                  |
+| `nano metricbeat-config.yml`              | edit metricbeat config                  |
+| `nano metricbeat-playbook.yml`            | edit metricbeat playbook                |
+| `http://ELK-IP:5601/app/kibana`           | kibana dashboard                        |    
