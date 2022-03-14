@@ -165,7 +165,6 @@ SSH into the control node and follow the steps below:
 - Update the _config_ file to include _remote users_ and _ports_
 - Run the playbook, and navigate to _Kibana [ELK IP]/app/kibana:5601_ to check that the installation worked as expected.
 
-_Answer the following questions to fill in the blanks:_
 ### For Elk VM
 - Copy the [Elk Installation and Configuration](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/blob/main/ELK-Stack-Deployment-Project/Ansible/ELK_Stack/elk-packages.yml)
 - Run the playbook using the `ansible-playbook etc/ansible/elk-packages.yml`
@@ -221,6 +220,8 @@ _Answer the following questions to fill in the blanks:_
   - [Metricbeat Kibana Dashboard - Docker Overview](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/blob/main/ELK-Stack-Deployment-Project/Images/metricbeat_docker_overview.png)
   - [Docker Web-1 Metrics](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/blob/main/ELK-Stack-Deployment-Project/Images/web_1_metrics.png)
   - [Docker Web-2 Metrics](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/blob/main/ELK-Stack-Deployment-Project/Images/web_2_metrics.png)
+
+_Answer the following questions to fill in the blanks:_
 - _Which file is the playbook? Where do you copy it?_
   - [Ansible](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/blob/main/ELK-Stack-Deployment-Project/Ansible/Docker/pentest.yml)
   - Copy this file to `/etc/ansible`
@@ -229,7 +230,7 @@ _Answer the following questions to fill in the blanks:_
   - [Metricbeat](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/blob/main/ELK-Stack-Deployment-Project/Ansible/Metricbeat/metricbeat-playbook.yml)
   - Copy this file to `/etc/ansible`
 - _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
-  - /etc/ansible/hosts file
+  - /etc/ansible/`hosts` file
   - The IP addresses are specified under groups there is _[webservers]_ and _[elk]_ this is located in the `/etc/ansible/hosts` file. Webservers contains the IPs of the two web machines that will contain filebat and the the elk group contains the ELK stack.
 - Which URL do you navigate to in order to check that the ELK server is running?
   - http://ELKIP:5601/app/kibana
