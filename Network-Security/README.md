@@ -353,4 +353,4 @@ ___
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
 
 # Week 11 Solution
-[Network Security]()
+![Network Security](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/blob/main/Network-Security/homework.md)
