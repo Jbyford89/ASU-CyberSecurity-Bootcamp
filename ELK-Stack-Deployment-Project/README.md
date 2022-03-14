@@ -174,6 +174,7 @@ SSH into the control node and follow the steps below:
   - `curl -L -O https://gist.githubusercontent.com/slape/5cc350109583af6cbe577bbcc0710c93/raw/eca603b72586fbe148c11f9c87bf96a63cb25760/Filebeat > /etc/ansible/filebeat-config.yml`
   - Copy [Filebeat Configuration File](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/blob/main/ELK-Stack-Deployment-Project/Ansible/Filebeat/filebeat-config.yml)
   - Update filebeat-config.yml to include _ELK private IP 10.1.0.4_ information provided below.
+  - _Hint: Use `ctrl+w` while using `nano` inside the file to search for by keywords `output.elasticsearch` and `setup.kibana`._
   ```
   output.elasticsearch:
   # Boolean flag to enable or disable the output module.
