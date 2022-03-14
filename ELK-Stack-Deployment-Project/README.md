@@ -275,3 +275,4 @@ _As a **Bonus**, provide the specific commands the user will need to run to down
 | `nano metricbeat-config.yml`              | edit metricbeat config                  |
 | `nano metricbeat-playbook.yml`            | edit metricbeat playbook                |
 | `http://ELK-IP:5601/app/kibana`           | kibana dashboard SUCCESS                |    
+| `nano [file name]` `ctrl+w`               | edit and search inside a file           |
