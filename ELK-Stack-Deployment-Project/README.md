@@ -175,7 +175,7 @@ SSH into the control node and follow the steps below:
   - Copy [Filebeat Configuration File](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/blob/main/ELK-Stack-Deployment-Project/Ansible/Filebeat/filebeat-config.yml)
   - Update filebeat-config.yml to include _ELK private IP 10.1.0.4_ information provided below.
   - _Hint: Use `ctrl+w` while using `nano` inside the file to search for by keywords `output.elasticsearch` and `setup.kibana`._
-  ```
+  ```yaml
   output.elasticsearch:
   # Boolean flag to enable or disable the output module.
   #enabled: true
@@ -202,7 +202,7 @@ SSH into the control node and follow the steps below:
   - `curl -L -O https://gist.githubusercontent.com/slape/58541585cc1886d2e26cd8be557ce04c/raw/0ce2c7e744c54513616966affb5e9d96f5e12f73/metricbeat > /etc/ansible/files/metricbeat-config.yml`
   - Copy the [Metricbeat Configuration File](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/ELK-Stack-Deployment-Project/Ansible/Metricbeat/metricbeat-config.yml)
   - Update the metricbeat-config.yml file _ELK Private IP 10.1.0.4_ information provided below.
-  ```
+  ```yaml
   #============================== Kibana =====================================
 
   # Starting with Beats version 6.0.0, the dashboards are loaded via the Kibana API.
