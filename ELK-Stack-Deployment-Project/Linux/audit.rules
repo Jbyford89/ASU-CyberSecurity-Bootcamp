@@ -1,0 +1,6 @@
+#!/bin/bash
+
+-w /etc/shadoq -p wra -k haspass_audit
+-w /etc/passwd -p wra -k userpass_audit
+-w /var/log/auth -p wra -k authlog_audit
+

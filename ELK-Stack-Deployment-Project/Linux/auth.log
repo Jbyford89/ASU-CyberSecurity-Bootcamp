@@ -1,0 +1,11 @@
+#!/bin/bash
+
+/var/log/auth.auth {
+     weekly
+     rotate 7
+     Notifempty
+     Delaycompress
+     Missingok
+     endscript
+}
+
