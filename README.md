@@ -16,6 +16,6 @@ You can use the quick links below to access each one. After going to a **quick l
 | Unit 8 Networking Fundamentals | [Networking Fundamentals]() |
 | Unit 9 Networking Fundamentals II & CTF Review | [CTF Solution]() |
 | Unit 10 Cryptography | [Cryptography](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/tree/main/Cryptography) | 
-| Unit 11 Network Security | [Network Security](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/tree/main/Network-Security) |
+| Unit 11 Network Security | [Network Security](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/tree/main/Network-Security) | [Submission](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/blob/main/Network-Security/homework.md)
 | Unit 12 Cloud Security | [Cloud Security](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/tree/main/Cloud-Security) | [Diagram](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/blob/main/Cloud-Security/Jumbox_ansible_network.drawio.png) |
 | Unit 13 Elk Stack Project | [Elk Stack](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/tree/main/ELK-Stack-Deployment-Project) | [ELK Diagram](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/raw/main/ELK-Stack-Deployment-Project/Images/Diagrams/Cloud_Security_with_ELK.drawio.png)
