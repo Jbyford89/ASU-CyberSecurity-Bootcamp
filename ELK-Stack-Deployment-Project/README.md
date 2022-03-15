@@ -166,7 +166,7 @@ SSH into the control node and follow the steps below:
 - Run the playbook, and navigate to _Kibana [ELK IP]/app/kibana:5601_ to check that the installation worked as expected.
 
 ### For Elk VM
-- Copy the [Elk Installation and Configuration](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/blob/main/ELK-Stack-Deployment-Project/Ansible/ELK_Stack/elk-packages.yml)
+- Copy the [Elk Setup and Install](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/blob/main/ELK-Stack-Deployment-Project/Ansible/ELK_Stack/elk-packages.yml)
 - Run the playbook using the `ansible-playbook /etc/ansible/elk-packages.yml`
 - If you are in the `/etc/ansible/` directory you can run `ansible-playbook elk-packages.yml`
 ### Filebeat
