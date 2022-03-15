@@ -1,0 +1,81 @@
+#!/bin/bash
+
+# Check if script was run as root. Exit if true
+if [ $UID -eq 0]
+then
+  echo "Plese do not run this script as root"
+  exit
+fi
+
+# Defining variables
+fileout=$HOME/research/sys_info2.txt
+ip=$(ip addr | grep inet | tail -2 | head -1)
+execs=$(find /home -type f -perm 777 2> /dev/null)
+
+
+# Check for research dir. Create if needed.
+if [ ! -d $HOME/research]
+then
+  mkdir $HOME/research
+fi
+
+# Check for output file. Clear it if needded
+if [ -f $fileout]
+then
+ rm $fileout
+fi
+
+
+echo "A Quick System Audit Script" > $fileout
+
+# Print the current date
+now="$(date)" >> $fileout
+printf "Current date and time %s\n" "$now" >> $fileout
+
+echo "" >> $fileout
+
+# print the string
+COMPUSER="$USER" >> ~/research/sys_info.txt
+echo "The name of the user is $COMPUSER" >> $fileout
+
+# prints the machine info
+echo "Machine Type Info: \n" >> $fileout
+echo $MACHTYPE >> $fileout
+
+# print machine info
+echo -e "Uname info: $(uname -a) \n" >> $fileout
+
+#
+echo -e "IP Info: \n" >> $fileout
+echo -e "$ip \n" >> $fileout
+
+#
+echo -e "Hostname: $(hostname -s) \n" >> $fileout
+
+
+# read contents of file
+echo -e "DNS Servers: " >> $fileout
+cat /etc/resolv.conf >> $fileout
+
+# check memory usage
+echo -e "\nMemory Info: " >> $fileout
+free >> $fileout
+
+# check only cpu
+echo -e "\nCPU Info:" >> $fileout 
+lscpu | grep CPU >> $fileout
+
+# check disk usage top 2 lines only
+echo -e "\nDisk Usage:" >> $fileout
+df -H | head -2 >> $fileout
+
+# prints currently logged in users
+echo -e "\Who is logged in: \n $(who) \n" >> $fileout
+
+# find all files with 777 permission
+echo -e "\nEXEC Files:" >> $fileout
+$execs >> $fileout
+
+# find top 10 processes 
+echo -e "\nTop 10 Processes" >> $fileout
+ps aux --sort -%mem | awk '{print $1,$2,$3,$4,$11}' | head >> $fileout
