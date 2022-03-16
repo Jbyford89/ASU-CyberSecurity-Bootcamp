@@ -14,7 +14,7 @@ You can use the quick links below to access each one. After going to a **quick l
 | Unit 6 Bash Scripting and Programming | [Bash Scripting]() |
 | Unit 7 Windows Administration and Hardening | [Windows Hardening]() |
 | Unit 8 Networking Fundamentals | [Networking Fundamentals]() |
-| Unit 9 Networking Fundamentals II & CTF Review | [CTF Solution]() |
+| Unit 9 CTF Review | [CTF Solution]() |
 | Unit 10 Cryptography | [Cryptography](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/tree/main/Cryptography) | 
 | Unit 11 Network Security | [Network Security](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/tree/main/Network-Security) | [Submission](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/blob/main/Network-Security/homework.md)
 | Unit 12 Cloud Security | [Cloud Security](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/tree/main/Cloud-Security) | [Diagram](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/blob/main/Cloud-Security/Jumbox_ansible_network.drawio.png) |
