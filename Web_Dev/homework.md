@@ -164,54 +164,7 @@ Using `curl`, you will do the following for the Ryan user:
 
   - Attempt to access a privileged WordPress admin page.
 
-#### Step 1: Set Up
-
-Create two new users: Amanda and Ryan.   
-
-1. Navigate to `localhost:8080/wp-admin/`
-
-2. On the left-hand toolbar, hover over **Users** and click **Add New**.
-
-3. Enter the following information to create the new user named Amanda.
-
-    - Username: `Amanda`
-    - Email: `amanda@email.com`
-
-4. Skip down to password:
-
-    - Password: `password`
-    - Confirm Password: Check the box to confirm use of weak password.
-    - Role: `Administrator`
-
-5. Create another user named Ryan.
-
-    - Username: `Ryan`
-    - Email: `ryan@email.com`
-
-6. Skip down to password:
-
-    - Password: `123456`
-    - Confirm Password: Check the box to confirm use of weak password.
-    - Role: `Editor`
-
-7. Log out and log in with the following credentials:
-
-    - Username: `Amanda`
-    - Password: `password`
-
-#### Step 2: Baselining
-
-For these "baselining" steps, you'll want to log into two different types of accounts to see how the WordPress site looks at the `localhost:8080/wp-admin/users.php` page.  We want to see how the Users page looks from the perspective of an administrator, vs. a regular user.
-
-1. Using your browser, log into your WordPress site as your sysadmin account and navigate to `localhost:8080/wp-admin/users.php`, where we previously created the user Ryan. Examine this page briefly. Log out.
-
-2. Using your browser, log into your Ryan account and attempt to navigate to `localhost:8080/wp-admin/index.php`. Note the wording on your Dashboard.
-
-3. Attempt to navigate to `localhost:8080/wp-admin/users.php`. Note what you see now.
-
-Log out in the browser.
-
-#### Step 3: Using Forms and a Cookie Jar
+---
 
 Navigate to `~/Documents` in a terminal to save your cookies.
 
