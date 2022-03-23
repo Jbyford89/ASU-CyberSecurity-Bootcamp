@@ -196,7 +196,7 @@ Answer the following questions about monoliths and microservices:
 Answer the following questions about multi-container deployment:
 
 29. What tool can be used to deploy multiple containers at once?
-  - _Docker-compose_ used to deply multiple containers.
+  - _Docker-compose_ used to deploy multiple containers.
   - _`docker-compose up`_ used to launch the containers.
 
 30. What kind of file format is required for us to deploy a container set?
