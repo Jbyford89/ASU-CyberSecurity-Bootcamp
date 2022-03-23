@@ -129,7 +129,7 @@ username=Barbara&password=password
   - _Login credntials were sent._
 
     ```bash
-    username=bob
+    username=barbara
     password=password
     ```
 
@@ -196,7 +196,7 @@ Answer the following questions about monoliths and microservices:
 Answer the following questions about multi-container deployment:
 
 29. What tool can be used to deploy multiple containers at once?
-  - _Docker-compose_ used to deply multiple containers.
+  - _Docker-compose_ used to deploy multiple containers.
   - _`docker-compose up`_ used to launch the containers.
 
 30. What kind of file format is required for us to deploy a container set?
@@ -206,16 +206,14 @@ Answer the following questions about multi-container deployment:
 
 31. Which type of SQL query would we use to see all of the information within a table called `customers`?
   - _SELECT * from customers;_
-    - 
-      ```sql
+    - ```sql
       SELECT * from customers 
       where firstname='Bob' AND lastname='Smith';
       ```
 
 32. Which type of SQL query would we use to enter new data into a table? (You don't need a full query, just the first part of the statement.)
   - _INSERT INTO customers;_
-    - 
-      ```sql
+    - ```sql
       INSERT INTO customers (key_1,key_2,...) 
       VALUES ('value_1','value_2',...);
       ```
@@ -274,7 +272,3 @@ Note that each one of these is a cookie that was granted to Ryan after logging i
     - **Question:** What happens this time?
 
 ---
-
-### Submission Guidelines
-
-* Save the file where you documented your solutions and submit it as your homework deliverable. 

@@ -334,7 +334,7 @@ Note that each one of these is a cookie that was granted to Ryan after logging i
 
 ### Submission Guidelines
 
-* Save the file where you documented your solutions and submit it as your homework deliverable. 
+* [Week 14](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/blob/main/Web_Dev/homework.md) 
 
 ---
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.  
