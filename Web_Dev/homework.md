@@ -272,7 +272,3 @@ Note that each one of these is a cookie that was granted to Ryan after logging i
     - **Question:** What happens this time?
 
 ---
-
-### Submission Guidelines
-
-* Save the file where you documented your solutions and submit it as your homework deliverable. 
