@@ -206,16 +206,14 @@ Answer the following questions about multi-container deployment:
 
 31. Which type of SQL query would we use to see all of the information within a table called `customers`?
   - _SELECT * from customers;_
-    - 
-      ```sql
+    - ```sql
       SELECT * from customers 
       where firstname='Bob' AND lastname='Smith';
       ```
 
 32. Which type of SQL query would we use to enter new data into a table? (You don't need a full query, just the first part of the statement.)
   - _INSERT INTO customers;_
-    - 
-      ```sql
+    - ```sql
       INSERT INTO customers (key_1,key_2,...) 
       VALUES ('value_1','value_2',...);
       ```
