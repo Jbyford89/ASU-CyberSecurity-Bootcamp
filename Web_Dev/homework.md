@@ -129,7 +129,7 @@ username=Barbara&password=password
   - _Login credntials were sent._
 
     ```bash
-    username=barbera
+    username=barbara
     password=password
     ```
 
