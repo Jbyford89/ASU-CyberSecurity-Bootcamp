@@ -64,10 +64,12 @@
 4. Now that you have determined that Replicants new application is vulnerable to command injection, you are tasked with using the dot-dot-slash method to design two payloads that will display the contents of the following files:
    
    - `/etc/passwd`
+
      ![](Images/ping_etc_passwd.png)
      ![](Images/ping_google_etc_passwd_term.png)
    
    - `/etc/hosts`
+
      ![](Images/ping_etc_hosts.png)
      ![](Images/ping_etc_hosts_term.png)
   
