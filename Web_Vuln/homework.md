@@ -121,6 +121,7 @@
     </details>
  
 4. **Deliverable**: Take a screen shot confirming that this exploit was successfully executed and provide 2-3 sentences outlining mitigation strategies.
+  - **TODO**
 
 
 ### Web Application 3: *Where's the BeEF?*
@@ -235,6 +236,7 @@
    </details>
  
 6. **Deliverable**: Take a screen shot confirming that this exploit was successfully executed and provide 2-3 sentences outlining mitigation strategies. 
+  - **TODO**
 
 ---
 
