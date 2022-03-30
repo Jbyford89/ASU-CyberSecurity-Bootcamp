@@ -13,11 +13,11 @@ Answer the following questions about the HTTP request and response process.
 
 2. What are the different parts of an HTTP request? 
   - _The Request Line is the first portion of the request._
-    - _Then its the HTTP method used._
+    - _Then the HTTP method._
     - _The request URL._
     - _HTTP protocol version._
 
-  - _Request Header, this is a header that can be used in a HTTP request to provide information about the requested context.__
+  - _Request Header, this is a header that can be used in an HTTP request to provide information about the requested context._
   - _Request Body, data sent by the client to the API._
 
 3. Which part of an HTTP request is optional?
