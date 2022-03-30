@@ -75,7 +75,7 @@
   
    **Hint:** Try testing out a command directly on the command line to help design your payload.
 
-5. **Deliverable**: Take a screen shot confirming that this exploit was successfully executed and provide 2-3 sentences outlining mitigation strategies.
+#### **Deliverable**: Take a screen shot confirming that this exploit was successfully executed and provide 2-3 sentences outlining mitigation strategies.
    - _Avoid command line calls_
    - _Set up input validation, Command Injection vulnerabilities occur when untrusted input is not sanitized correctly._
    - _Have restricted permissions, Reduce the number of users to access the database_ 
@@ -120,7 +120,7 @@
 
     </details>
  
-4. **Deliverable**: Take a screen shot confirming that this exploit was successfully executed and provide 2-3 sentences outlining mitigation strategies.
+#### **Deliverable**: Take a screen shot confirming that this exploit was successfully executed and provide 2-3 sentences outlining mitigation strategies.
   - **TODO**
 
 
@@ -234,8 +234,7 @@
      - Host >> Get Geolocation (Third Party)
 
    </details>
- 
-6. **Deliverable**: Take a screen shot confirming that this exploit was successfully executed and provide 2-3 sentences outlining mitigation strategies. 
+ #### **Deliverable**: Take a screen shot confirming that this exploit was successfully executed and provide 2-3 sentences outlining mitigation strategies. 
   - **TODO**
 
 ---
