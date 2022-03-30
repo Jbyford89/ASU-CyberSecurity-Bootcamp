@@ -122,9 +122,9 @@
  
 #### **Deliverable**: Take a screen shot confirming that this exploit was successfully executed and provide 2-3 sentences outlining mitigation strategies.
 
-   ![](Images/tony_stark_successful)
-   ![](Images/burp_intruder_passwd)
-   ![](Images/burp_intruder_admins)
+   ![](Images/tony_stark_successful.png)
+   ![](Images/burp_intruder_passwd.png)
+   ![](Images/burp_intruder_admins.png)
 
 ##### Mitigation Strategies
 
@@ -221,11 +221,11 @@
 
    ```
   
-    ![](Images/gmail_exploit_login)
+    ![](Images/gmail_exploit_login.png)
 
    - Return to the BeEF control panel. In the center panel, select the first option. Note that now on the right panel, the username and password have been captured by the attacker.
   
-    ![](Images/BeEF_control_panel)
+    ![](Images/BeEF_control_panel.png)
 
 
 5. Now that you know how to use the BeEF tool, you'll use it to test the Replicants web application. You are tasked with using a stored XSS attack to inject a BeEF hook into Replicants' main website.
@@ -243,9 +243,9 @@
      
      - Social Engineering >> Pretty Theft
      
-     ![](Images/pretty_theft)
-     ![](Images/pretty_theft_2)
-     ![](Images/pretty_theft_3)
+     ![](Images/pretty_theft.PNG)
+     ![](Images/pretty_theft_2.PNG)
+     ![](Images/pretty_theft_3.PNG)
     
      - Social Engineering >> Fake Notification Bar
      
