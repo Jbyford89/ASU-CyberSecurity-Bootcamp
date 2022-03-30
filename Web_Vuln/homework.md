@@ -37,7 +37,7 @@
 
    - Test the webpage by entering the IP address `8.8.8.8`. Press Submit to see the results display on the web application.
 
-     ![wd_hw2](Images/ping_google.png)
+     ![](Images/ping_google.png)
 
      - Behind the scenes, when you select Submit, the IP you type in the field is *injected* into a command that is run against the Replicants webserver. The specific command that ran on the webserver is `ping <IP>` and `8.8.8.8` is the field value that is injected into that command.
      
@@ -76,6 +76,9 @@
    **Hint:** Try testing out a command directly on the command line to help design your payload.
 
 #### **Deliverable**: Take a screen shot confirming that this exploit was successfully executed and provide 2-3 sentences outlining mitigation strategies.
+
+##### Mitigation Strategies
+
    - _Avoid command line calls_
    - _Set up input validation, Command Injection vulnerabilities occur when untrusted input is not sanitized correctly._
    - _Have restricted permissions, Reduce the number of users to access the database_ 
