@@ -85,13 +85,9 @@
 
 1. Complete the following steps to set up the activity. 
 
+    <details>
+
     - Open a browser on Vagrant and navigate to the webpage <http://192.168.13.35/install.php>.
-  
-    -  The page should look like the following:
-
-       ![wd_hw5](Images/wd_hw5.png)
-
-    - Click "here" to install bWapp. (See the arrow in the previous screenshot.) 
     
     - After successfully installing bWapp, use the following credentials to login.
 
@@ -99,24 +95,16 @@
 
       - Password: `bug`
 
-       ![wd_hw6](Images/wd_hw6.png)
-
- 
-    - This will take you to the following page:
-
-      ![wd_hw7](Images/wd_hw7.png)
 
     - To access the application where we will perform our activity, enter in the following URL: <http://192.168.13.35/ba_insecure_login_1.php>
 
-      - This will take you to the following page:
-
-        ![wd_hw8](Images/wd_hw8.png)
 
 2. This page is an administrative web application that serves as a simple login page. An administrator enters their username and password and selects Login.
      
     - If the user/password combination is correct, it will return a successful message.
      
     - If the user/password combination is incorrect, it will return the message, "Invalid credentials."
+
 
 3. Years ago, Replicants had a systems breach and several administrators passwords were stolen by a malicious hacker. The malicious hacker was only able to capture a list of passwords, not the associated accounts' usernames. Your manager is concerned that one of the administrators that accesses this new web application is using one of these compromised passwords. Therefore, there is a risk that the malicious hacker can use these passwords to access an administrator's account and view confidential data.
 
@@ -129,12 +117,17 @@
      - [Breached list of Passwords](breached_passwords.txt)
   
    - Hint: Refer back to the Burp Intruder activity `10_Brute_Force` from Day 3 for guidance.
+
+    </details>
  
-4. **Deliverable**: Take a screen shot confirming that this exploit was successfully executed and provide 2-3 sentences outlining mitigation strategies. 
+4. **Deliverable**: Take a screen shot confirming that this exploit was successfully executed and provide 2-3 sentences outlining mitigation strategies.
+
 
 ### Web Application 3: *Where's the BeEF?*
 
 1. Complete the following to set up the activity. 
+
+   <details>
 
    - On Vagrant, open a command line and run the following command: `sudo beef`
 
@@ -146,18 +139,19 @@
    
    - To access the BeEF GUI, right-click the first URL and select Open Link.
 
-     ![wd_hw10](Images/wd_hw10.png)
+     - When the BeEF webpage opens, login with the following credentials:
+       
+       ```bash
 
-   - When the BeEF webpage opens, login with the following credentials:
-     - Username: `beef`
+       - Username: `beef`
      
-     - Password: `feeb`
+       - Password: `feeb`
 
-     ![wd_hw11](Images/wd_hw11.png)
+       ```
+     
 
-   - You have successfully completed the setup when you have reached the `BeEF Control Panel` shown in the image below:
+   - You have successfully completed the setup when you have reached the `BeEF Control Panel`.
 
-     ![wd_hw12](Images/wd_hw12.png)
 
 2. The Browser Exploitation Framework (BeEF) is a practical client-side attack tool that exploits vulnerabilities of web browsers to assess the security posture of a target.      
 
@@ -178,21 +172,13 @@
     
     - Click the second "here" to access the advanced version.  
      
-       ![wd_hw13](Images/wd_hw13.png)
+      - Note that once you have pulled up this infected webpage, your browser has now been hooked!
 
-    - This will open the following website, which has been infected with a BeEF hook.
-
-       ![wd_hw14](Images/wd_hw14.png)
-
-    - Note that once you have pulled up this infected webpage, your browser has now been hooked!
-
-    	- If your browser has not been hooked, restart your browser and try again.
+      - If your browser has not been hooked, restart your browser and try again.
 
     -  Return to the control panel. On the left side, you can notice that your browser has become infected since accessing the infected Butcher website. Note that if multiple browsers become infected they will all be listed individually on the left hand side of this panel.
 
-      - Click on the browser `127.0.0.1` as indicated in the screenshot below.
-
-        ![wd_hw15](Images/wd_hw15.png)
+      - Click on the browser `127.0.0.1`.
 
       - Under the Details tab, we can see information about the infected browser. 
 
@@ -206,11 +192,8 @@
      
    - To access this exploit, select Google Phishing under Social Engineering.
 
-       ![wd_hw16](Images/wd_hw16.png)
 
    - After selecting this option, the description of the exploit and any dependencies or options are displayed in the panel on the right.
-
-       ![wd_hw17](Images/wd_hw17.png)
 
    - To launch the exploit, select Execute in the bottom right corner.
 
@@ -218,15 +201,17 @@
 
      - A victim could easily mistake this for a real login prompt.
 
-   - Lets see what would happen if a victim entered in their credentials. Use the following credentials to login in to the fake Google page. 
+   - Lets see what would happen if a victim entered in their credentials. Use the following credentials to login in to the fake Google page.
+
+   ```bash
+ 
      - Username: `hackeruser`
      - Password: `hackerpass`
 
-       ![wd_hw18](Images/wd_hw18.png)
+   ```
 
    - Return to the BeEF control panel. In the center panel, select the first option. Note that now on the right panel, the username and password have been captured by the attacker.
 
-     ![wd_hw19](Images/wd_hw19.png)
 
 5. Now that you know how to use the BeEF tool, you'll use it to test the Replicants web application. You are tasked with using a stored XSS attack to inject a BeEF hook into Replicants' main website.
 
@@ -246,10 +231,10 @@
      - Social Engineering >> Fake Notification Bar
      
      - Host >> Get Geolocation (Third Party)
-    
+
+   </details>
+ 
 6. **Deliverable**: Take a screen shot confirming that this exploit was successfully executed and provide 2-3 sentences outlining mitigation strategies. 
 
 ---
-
-© 2021 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
 
