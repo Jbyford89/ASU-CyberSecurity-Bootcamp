@@ -354,9 +354,8 @@ couple BeEF exploits. Some that work well include:
 
 
 
- #### **Deliverable**: Take a screen shot confirming that this exploit
-was successfully executed and provide 2-3 sentences outlining
-mitigation strategies.
+ #### **Deliverable**: Take a screenshot confirming that this exploit was successfully executed and provide 2-3 sentences outlining mitigation strategies.
+ 
 ##### Mitigation Strategies
   - _Keep the system updated_
   - _Restore VM to bare state atleast once a week(month)_
