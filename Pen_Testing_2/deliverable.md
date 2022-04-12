@@ -1,5 +1,5 @@
 #### Deliverable
-ce you complete this assignment, submit your findings in the following document: 
+Once you complete this assignment, submit your findings in the following document: 
 
 - [Report.docx](Resources/Report.docx)
  
