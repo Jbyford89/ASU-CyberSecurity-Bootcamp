@@ -23,6 +23,7 @@ Enter the IP address for `demo.testfire.net` into Domain Dossier and answer the 
 
   3. What is the company they use to store their infrastructure:
     
+<<<<<<< HEAD
     ```
     CustName:       Rackspace Backbone Engineering
     Address:        9725 Datapoint Drive, Suite 100
@@ -35,12 +36,26 @@ Enter the IP address for `demo.testfire.net` into Domain Dossier and answer the 
     Ref:            https://rdap.arin.net/registry/entity/C05762718
     ```
     ![](Images/server_storage_info.png)
+=======
+```
+CustName:       Rackspace Backbone Engineering
+Address:        9725 Datapoint Drive, Suite 100
+City:           San Antonio
+StateProv:      TX
+PostalCode:     78229
+Country:        US
+RegDate:        2015-06-08
+Updated:        2015-06-08
+Ref:            https://rdap.arin.net/registry/entity/C05762718
+```
+   ![](Images/server_storage_info.png)
+>>>>>>> ccfa3b1eda2ea067f772cc50048592e19285fcca
 
 
   4. What is the IP address of the DNS server:
     - _65.61.137.117_
 
-    ![](Images/DNS_server.png)
+   ![](Images/DNS_server.png)
 
 #### Step 3: Shodan
 
