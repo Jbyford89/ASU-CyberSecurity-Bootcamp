@@ -23,7 +23,7 @@ Enter the IP address for `demo.testfire.net` into Domain Dossier and answer the 
 
   3. What is the company they use to store their infrastructure:
     
-    ```bash
+    ```
     CustName:       Rackspace Backbone Engineering
     Address:        9725 Datapoint Drive, Suite 100
     City:           San Antonio
