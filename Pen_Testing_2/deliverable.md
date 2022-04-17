@@ -1,7 +1,7 @@
 #### Deliverable
 Once you complete this assignment, submit your findings in the following document: 
 
-- [Report.docx](Resources/Report.docx)
+- [Report.docx](Resources/Report-JRB.pdf)
  
 ### Instructions
 

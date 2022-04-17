@@ -13,6 +13,7 @@ You can use the quick links below to access each one. After going to a **quick l
 | Unit 14 Web Development | [Web-Dev](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/tree/main/Web_Dev) | [Submission](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/blob/main/Web_Dev/homework.md)
 | Unit 15 Web Vulnerabilies | [Web-Vuln](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/tree/main/Web_Vuln) | [Submission](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/blob/main/Web_Vuln/homework.md)
 | Unit 16 Pen Testing 1 | [Pen-Testing-1](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/tree/main/Pen_Testing_1) | [Submission](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/blob/main/Pen_Testing_1/SubmissionFile.md)
+| Unit 17 Pen Testing 2 | [Pen-Testing-2](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/tree/main/Pen_Testing_2) | [Submission](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/blob/main/Pen_Testing_2/deliverable.md) & [Report](https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp/blob/main/Pen_Testing_2/Resources/Report-JRB.pdf)
 
 
 <!-- TODO -->
