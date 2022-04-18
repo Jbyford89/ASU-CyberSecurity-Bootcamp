@@ -81,7 +81,7 @@ Submit a screenshot of your report and a screenshot of proof that the alert has 
       
 3. Determine a baseline of normal activity and a threshold that would alert if a brute force attack is occurring.
     - Command to query the brute force login attempts
-      - `source="Administrator_logs.csv" host="administrator_logs.csv" sourcetype="csv" | stats count by name | sort - count | eval BruteForce=IF(name="An accouunt failed to log on" AND count>5, "Potential Brute Force", "Not Brute Force")`
+      - `source="Administrator_logs.csv" host="administrator_logs.csv" sourcetype="csv" | stats count by name | sort - count | eval BruteForce=IF(name="An account failed to log on" AND count>5, "Potential Brute Force", "Not Brute Force")`
 
     ![](Images/brute_force_failed_login.png )
     ![](Images/pie_chart_brute_force_fail_login.png)
