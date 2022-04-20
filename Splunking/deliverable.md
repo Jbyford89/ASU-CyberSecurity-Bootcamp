@@ -16,6 +16,10 @@
   
    Hint: Use the following format when for the `table` command: `| table fieldA  fieldB fieldC`
 
+    - `source="server_speedtest.csv" | table _time IP_ADDRESS DOWNLOAD_MEGABITS UPLOAD_MEGABITS ratio`
+
+   ![](Images/speed_report_table.png)
+
 4. Answer the following questions:
 
     - Based on the report created, what is the approximate date and time of the attack?
