@@ -27,11 +27,11 @@ Note: This is a public-facing windows server that VSI employees access.
 
 **Global Solution:**
 
-**_`The best global mitigation would probably be to add multi-factor authentication to the companies systems. This would greatly reduce the number of successes of a threat actor to access user accounts.`_**
+**_The best global mitigation would probably be to add multi-factor authentication to the companies systems. This would greatly reduce the number of successes of a threat actor to access user accounts._**
 
 **Individual Solution:**
 
- - **_`User_K:` An attempt was made to reset an account password._**
+   - **_`User_K:` An attempt was made to reset an account password._**
    - **_The logs for this user do not show any evidence that the attacker was ever able to successfully log into or reset the password for `user_k`, however, there were several attempts to reset the password._**  
    - **_The best mitigation for this user would be to set up user-specific alerts with lower values in order to more closely analyze and watch for the users password getting changed again._**  
  - **_`User_A:` A user account was locked out._**  
@@ -48,8 +48,8 @@ Note: This is a public-facing windows server that VSI employees access.
 - VSI has insider information that JobeCorp attempted to target users by sending "Bad Logins" to lock out every user.
 - What sort of mitigation could you use to protect against this?
 
-**_`The easiest solution would be to set up a group policy for the company that would automatically unlock users accounts after a specific amount of time.`_**  
-**_`As soon as the company finds out about this insider attack, the employees should also be notified immediately to be more vigilant and careful about who they accept information from.`_**
+**_The easiest solution would be to set up a group policy for the company that would automatically unlock users accounts after a specific amount of time._**  
+**_As soon as the company finds out about this insider attack, the employees should also be notified immediately to be more vigilant and careful about who they accept information from._**
 
 ### Part 2: Apache Webserver Attack:
 
@@ -59,11 +59,11 @@ Note: This is a public-facing windows server that VSI employees access.
   - For example: "Block all incoming HTTP traffic where the source IP comes from the city of Los Angeles."
 - Provide a screen shot of the geographic map that justifies why you created this rule. 
 
-**_`Most of the incoming attacks were coming from Ukraine, therefore we should set up a firewall rule to block HTTP traffic from Ukraine.`_**    
-**_`Firewall Rule Description - "Block all incoming HTTP traffic where the source IP comes from the country of Ukraine"`_**  
+**_Most of the incoming attacks were coming from Ukraine, therefore we should set up a firewall rule to block HTTP traffic from Ukraine._**    
+**_Firewall Rule Description - "Block all incoming HTTP traffic where the source IP comes from the country of Ukraine"_**  
  
 
-**`The screenshot above shows Ukraine’s incoming HTTP Traffic`**
+**The screenshot above shows Ukraine’s incoming HTTP Traffic**
 
 
 #### Question 2
@@ -74,10 +74,10 @@ Note: This is a public-facing windows server that VSI employees access.
   - Conceive of two more rules in "plain english". 
   - Hint: Look for other fields that indicate the attacker.
 
-**_`You can create two others rules based off of 'user_agent' and 'bytes'. The recurring user agent is "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; SV1; .NET CLR 2.0.50727987787; InfoPath.1)." and the recurring byte amount is 65748.`_**  
- * **_`Both rule descriptions would be as follows:`_**  
-   * **_`"Block all incoming HTTP traffic where the useragent is "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; SV1; .NET CLR 2.0.50727987787; InfoPath.1)."`_**  
-   * **_`"Block all incoming HTTP traffic where the bytes amount is 65748."`_**
+**_You can create two others rules based off of 'user_agent' and 'bytes'. The recurring user agent is "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; SV1; .NET CLR 2.0.50727987787; InfoPath.1)." and the recurring byte amount is 65748._**  
+ * **_Both rule descriptions would be as follows:_**  
+   * **_"Block all incoming HTTP traffic where the useragent is "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; SV1; .NET CLR 2.0.50727987787; InfoPath.1)."_**  
+   * **_"Block all incoming HTTP traffic where the bytes amount is 65748."_**
 
 ---
 
