@@ -152,20 +152,22 @@ On your dashboard, add the ability to change the time range for all your visuali
 
 	- `source="apache_logs.txt" | top method`
 
-	![]()
-    ![]()	
+	![](Images/apache_logs_top_method.png)
+    ![](Images/apache_logs_top_method_report.png)	
 
 2. A report that shows the top 10 domains that referred to VSI's website.
 
 	- `source="apache_logs.txt" | top limit=10 referer_domain`
-	![]()
-	![]()	
+
+	![](Images/apache_logs_top_limit_10_referrer_domain.png)
+	![](Images/apache_logs_top_limit_10_referrer_domain_report.png)	
 
 3. A report that shows the count of the HTTP response codes.
 	
 	- `source="apache_logs.txt" | top status`
-	![]()
-	![]()	
+
+	![](Images/apache_logs_top_status.png)
+	![](Images/apache_logs_top_status_report.png)	
 	
 
 **Alerts**: Design the following alerts:
@@ -174,10 +176,10 @@ On your dashboard, add the ability to change the time range for all your visuali
 
 	- `source="apache_logs.txt"  | iplocation clientip | where Country!="United States"`
 
-	![]()
-    ![]()
+	![](Images/apache_logs_iplocation_country.png)
+    ![](Images/apache_logs_iplocation_country_alert.png)
 
-	- The average activity per hour is approximately 80.
+	- The average activity per hour is approximately 75.
 
 	- Therefore the threshold is set for 200.
 
@@ -193,10 +195,10 @@ On your dashboard, add the ability to change the time range for all your visuali
 
 	- `source="apache_logs.txt" method=POST`
 
-	![]()
-    ![]()
+	![](Images/apache_logs_method_post.png)
+    ![](Images/apache_logs_method_post_alert.png)
 
-	- The average activity per hour is approximately two.
+	- The average activity per hour is approximately 5.
 
 	- Therefore the threshold is set for 15.
 
@@ -214,48 +216,45 @@ On your dashboard, add the ability to change the time range for all your visuali
 
 	- `source="apache_logs.txt" | timechart span=1h count by method`
 
-    ![]()	
-	![]()
+    ![](Images/apache_logs_timechart_count_method.png)	
+	![](Images/apache_logs_linechart_count_method.png)
 
 2. A geographical map showing the location based on the `clientip` field.
 
     - `source="apache_logs.txt" | iplocation clientip | geostats count`
 
-    ![]()
-	![]()
+    ![](Images/apache_logs_iplocation_geostats.png)
+	![](Images/apache_logs_geostats_clustermap.png)
 
 3. A bar, column, or pie chart that displays the count of different URIs.
 
 	- `source="apache_logs.txt" | top limit=10 uri`
 
-    ![]()
-    ![]()
+    ![](Images/apache_logs_top_limit_10_uri.png)
+    ![](Images/apache_logs_top_uri_bar_chart.png)
 
 4. A bar, column, or pie chart that displays the counts of the top 10 countries.
 
 	- `source="apache_logs.txt"  | iplocation clientip | top limit=10 Country`
 
-    ![]()
-	![]()
+    ![](Images/apache_logs_clientip_country.png)
+	![](Images/apache_logs_clientip_piechart.png)
 
 5. A statistical chart that illustrates the count of different user agents.
 
 	- `source="apache_logs.txt"  |  top limit=10 useragent`
 
-    ![]()
-    ![]()
+    ![](Images/apache_logs_top_user_agent.png)
 
 
 6. One single value visualization of your choice: radial gauge, marker gauge, etc.     
 
-	![]()
-    ![]()
+	![](Images/apache_logs_method_get_count_total.png)
+    ![](Images/apache_logs_radial_guage.png)
 		
 On your dashboard, add the ability to change the time range for all your visualizations.
 
-![]()
-![]()
-
+![](Images/apache_logs_dashboard.png)
 
 ---
 
