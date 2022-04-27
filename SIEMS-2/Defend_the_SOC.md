@@ -13,13 +13,13 @@ Did you detect any suspicious changes in severity?
 	High: 6.91%
 	Informational: 93.09%
 	```
-	![]()
+	![](Images/windows_server_logs_top_severity.png)
 	to: 
 	```
 	High: 20.22%
 	Informational: 79.78%
 	```
-	![]()
+	![](Images/windows_server_attack_logs_top_severity.png)
 
 - This indicates an increase in the high severity cases.
 
@@ -32,25 +32,25 @@ Did you detect any suspicious changes in failed activities?
 	success: 97.02%
 	failure: 2.98%
 	```
-	![]()
+	![](Images/windows_server_logs_top_status.png)
 
 	 to:
 	```
 	success: 98.44%
 	failure: 1.56%
 	```
-	![]()
+	![](Images/win_attack_logs_success_failure_report.png)
 
 - This indicates that there is not a major change in the cumulative failure of events. 
    
 ---
 #### Alert Analysis for Failed Windows Activity
 
-![]()
+![](Images/win_attack_logs_failure.png)
 
   - **_There is some potential suspicious activity for failed activity between 8 a.m. and 9 a.m. on Weds, March 25th._**
 
-![]()
+![](Images/win_attack_logs_failure_alert.png)
 
   - **_The count of activity is 35 events during this hour, "A privileged service was called, where the user account was deleted, Domain Policies were changed, A user account was created, An attempt was made to reset an accounts password, and A computer account was deleted."_**
                 
@@ -61,13 +61,13 @@ Did you detect any suspicious changes in failed activities?
 
   - **_There is some potential suspicious activity for failed activity at 11 a.m and 12 p.m. on Weds, March 25th._**
 
-![]()
+![](Images/win_attack_logs_success_logged_on.png)
 
   - **_The count of activity is 196 at 11 a.m. and 77 at 12 p.m._**
 
   - **_The primary user logging in is `user j`._**
 
-![]()
+![](Images/win_attack_logs_success_logged_on_alert.png)
 
   - **_Yes, it would have alerted the SOC Analyst of the suspicious logons._**  
   - **_No, it is set appropriately for the hourly settings, it would have also triggered an alert for the activity for the second hour from 12 p.m. to 1 p.m. on the same day._**  
@@ -76,10 +76,10 @@ Did you detect any suspicious changes in failed activities?
 
 Did you detect a suspicious volume of deleted accounts?  
 
-![]()  
+![](Images/win_attack_logs_deleted_account_alert.png)  
 
   - **_There was no suspicious activity of deleted accounts._**
-![]()   
+![](Images/win_attack_logs_deleted_account.png)   
 ---
 #### Dashboard Analysis for Time Chart of Signatures
 
@@ -88,12 +88,10 @@ Did you detect a suspicious volume of deleted accounts?
 
 `Before Windows Server Attack Dashboard`
 
-![]()
-![]()
+![](Images/windows_server_logs_dashboard.png)
 
 `Dashboad after the Windows Server Attack`
-![]()
-![]()
+![](Images/win_attack_logs_dashboard.png)
 
 - What time did it start and stop for each signature? What is the peak count of the different signatures?
 
@@ -101,7 +99,7 @@ Did you detect a suspicious volume of deleted accounts?
   - **_`An attempt was made to reset a users password:` Started around `9 a.m. and ended at 11 a.m. on March 25th.` The peak count was `1,258`, and the total for the two hours was `(1258 + 761 = 2019).`_**  
   - **_`The account was successfully logged on:` Started around `11 a.m. and ended at 1 p.m. on March 25th.` The peak count was `196`, and the total for the two hours was `(196 + 77 = 273).`_**  
 
-![]()
+![](Images/win_attack_logs_signature_linechart.png)
 
  #### Dashboard Analysis for Users
 
@@ -115,7 +113,7 @@ Did you detect a suspicious volume of deleted accounts?
   - **_`User K:` Started around `9 a.m. and ended at 11 AM on March 25th.` Peak count was `1,256`, and the total for the two hours was `(1256 + 761 = 2017).`_**  
   - **_`User J:` Started around `11 a.m. and ended at 1 p.m. on March 25th.` Peak count was `196`, and the total for the two hours was `(196 + 82 = 278).`_**  
 
-![]()
+![](Images/win_attack_logs_user_linechart.png)
     
 #### Dashboard Analysis for Signatures with Bar, Graph, Pie Charts
 - Does anything stand out as suspicious?
@@ -145,8 +143,8 @@ Did you detect a suspicious volume of deleted accounts?
 - Did you detect any suspicious changes in HTTP methods? If so, which one?
   - **_Yes, there was a suspicious change in the HTTP `POST method`, which was raised from `1%` to `29%`or the `count` jumped from `106` to `1324`._**
 
-![]()
-![]()
+![](Images/apache_logs_top_method.png)
+![](Images/apache_attack_logs_top_method.png)
 
 - What is that method used for?
 
@@ -159,16 +157,16 @@ Did you detect a suspicious volume of deleted accounts?
 	
   - **_There were no major suspicious referrers during the attack. Only minor changes to the first two domains by a couple of percentages._**
 
-![]()
-![]()
+![](Images/apache_logs_top_limit_10_referrer_domain_report.png)
+![](Images/apache_attack_logs_top_referrer_domain_report.png)
 
 #### Report Analysis for HTTP Response Codes
 - Did you detect any suspicious changes in HTTP response codes? 
 									
   - **_There are several small changes, but the most prominent is the `404` response code, which increased from `2% to 15%`. The `200` response code went down from `91% to 83%`._**  
 
-![]()  
-![]()
+![](Images/apache_logs_top_status_report.png)  
+![](Images/apache_attack_logs_status_report.png)
     
 ---
 #### Alert Analysis for International Activity
@@ -179,8 +177,8 @@ Did you detect a suspicious volume of deleted accounts?
   - **_Yes, as the threshold was set at `200`, so this activity would be triggered as part of the alert._**  
   - **_No, as it’s above the activity set threshold._**  
 
-![]()  
-![]()  
+![](Images/apache_attack_logs_iplocation_country.png)  
+![](Images/apache_attack_logs_iplocation_country_alert.png)  
 
 
 #### Alert Analysis for HTTP POST Activity
@@ -190,7 +188,7 @@ Did you detect a suspicious volume of deleted accounts?
   - **_There was a spike in `POST` method activity between `8 p.m. and 9 p.m. on Weds, March 25th`, and had a count of `1,296` events._**
   - **_No, the threshold set is at 15 counts, this would have been triggered._**
 
-![]()  
+![](Images/apache_logs_method_post_alert.png)  
 
 ---
 
@@ -203,14 +201,14 @@ Did you detect a suspicious volume of deleted accounts?
   - **_The `POST` method was used, starting at `8 p.m. and ending at 9 p.m.` The peak count was `1,296`._**
   - **_The `GET` method was used, starting at `6 p.m. and ending at 7 p.m.` The peak count was `729`.
 
-![]()  
+![](Images/apache_attack_logs_dashboard_http_methods.png)  
     
  #### Dashboard Analysis for Cluster Map
   
 - Does anything stand out as suspicious? What new country, city on the map has a high volume of activity?
   - **_Yes, there is suspicious activity in `Ukraine.`_**
 
-![]()  
+![](Images/apache_attack_logs_top_countries_dashboard.png)  
 
 - What is the count of that country, city?
   - **_When zoomed in, we can see the cities in `Ukraine` are:_**  
@@ -218,13 +216,13 @@ Did you detect a suspicious volume of deleted accounts?
     - **_`Kharkiv:` Count of `433`_**  
     - **_`Lvov:` Count of `5`_**  
 
-![]()
+![](Images/apache_attack_logs_clientip.png)
 
 #### Dashboard Analysis for URI Data
 - Does anything stand out as suspicious? What URI is being hit the most?
   - **_Yes, there is suspicious activity against the main VSI logon page: `/VSI_Account_logon.php`._**
 
-![]()
+![](Images/apache_attack_logs_bar_chart_uri.png)
 
 - Based on the URI being accessed, what could the attacker potentially be doing?	
   - **_The attacker may be trying to brute force the VSI logon page._**
@@ -232,15 +230,11 @@ Did you detect a suspicious volume of deleted accounts?
 
 `Before Apache WebServer Logs Attack Dashboard`
 
-![]()
-![]()
-![]()
+![](Images/apache_logs_dashboard.png)
 
 `Dashboad after the Apache WebServer Logs Attack`  
 
-![]()
-![]()
-![]()
+![](Images/apache_attack_logs_dashboard.png)
 
 ---
     
