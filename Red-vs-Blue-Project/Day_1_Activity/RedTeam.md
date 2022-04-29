@@ -115,9 +115,10 @@ In addition, the instructions show an outdated IP address that the students will
 
   - Drop into a bash shell with the command: `shell`
   - Go to the `/` directory: `cd /`
+  - Run the command `ls` to see contents of directory
   - Search the system for any files containing the phrase "flag" : `find . -iname flag.txt`
 
-Students can read the file, once located, with `cat`.
+- Read the file, once located, with `cat`.
 
    ![16_view_files](Images/meterpreter_shell_flag.png)
 
