@@ -1,10 +1,4 @@
 ## Day 1 Red Team
-
-This solution guide should only be used to help students if they get stuck. Before helping students, remind them that penetration testing is usually done in teams that collaborate with one another.
-
-If students are still struggling or stuck, consult the following guides and offer assistance.
-
-While going through the solution file, please note that the IP addresses here need to be replaced your machine's IP addresses. 
   
 ### Step 1: Discover the IP address of the Linux server.
 
