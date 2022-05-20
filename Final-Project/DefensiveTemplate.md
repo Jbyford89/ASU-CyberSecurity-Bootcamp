@@ -62,6 +62,8 @@ Alert 1 is implemented as follows:
     - _The alert will not generate an excessive amount of false positives._
     - _Medium Reliability._
 
+    ![](Images/Target_1/Excessive_http_errors.png)
+
 #### Name of Alert 2
 _CPU Usage Monitor_
 
@@ -74,6 +76,8 @@ Alert 2 is implemented as follows:
     - _Yes. The alert can generate a lot of false positives due to CPU spikes happening when specific parts of the integrations are initiated at the start of processing._
     - _High Reliability._
 
+    ![](Images/Target_1/CPU_Usage_Monitor_Create.png)
+
 #### Name of Alert 3
 _HTTP Request Size Monitor_
 
@@ -85,3 +89,5 @@ Alert 3 is implemented as follows:
   - **Reliability**: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
     - _No, this alert does not generate an excessive amount of false positives, DDoS attacks submit requests within seconds and not within minutes._
     - _Medium Reliability._
+
+    ![](Images/Target_1/Http_Request_Size_Monitor_Create.png)
