@@ -10,7 +10,7 @@
 _netdiscover shows the ip addresses of targets and active machines in the network._
 
 ```bash
-root@Kali:~\# netdiscover -r 192.168.1.255/16
+root@Kali:~\# netdiscover -r 192.168.1.255/24
 ```
 
 ![](Images/Target_1/netdiscover_-r_192_168_1_255_16.png)
